@@ -1,0 +1,17 @@
+{
+    "name": "yreborn/laravel-upload",
+    "autoload": {
+        "psr-4": {
+            "Yreborn\\LaravelUpload\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "yejingyong",
+            "email": "1395518942@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0"
+    }
+}
