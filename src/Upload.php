@@ -19,7 +19,7 @@ class Upload
      */
     public function __construct(Repository $config)
     {
-        $this->config = $config->get('config');
+        $this->config = $config->get('upload');
     }
 
     /**
