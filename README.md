@@ -1,6 +1,8 @@
-当前插件集成了七牛云、阿里云、腾讯云对象存储，只需简单配置即可使用这三个oss服务
+
+当前插件集成了七牛云、阿里云、腾讯云对象存储，只需简单配置即可使用这三个oss服务,支持laravel 9版本以上.
 
 下载方式:
+    
     1、通过composer下载:composer require yreborn/laravel-upload
     2、在composer.json 新增 "yreborn/laravel-upload": "dev-main"，在命令行使用composer install进行安装
 
