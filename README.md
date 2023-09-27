@@ -1,6 +1,9 @@
-当前插件集成了七牛云、阿里云、腾讯云对象存储，只需简单配置即可使用这三个服务
+当前插件集成了七牛云、阿里云、腾讯云对象存储，只需简单配置即可使用这三个oss服务
 
-composer require yreborn/laravel-upload
+下载方式:
+    1、通过composer下载:composer require yreborn/laravel-upload
+    2、在composer.json 新增 "yreborn/laravel-upload": "dev-main"，在命令行使用composer install进行安装
+
 
 1、创建config/upload.php 配置文件
 
@@ -26,6 +29,7 @@ composer require yreborn/laravel-upload
     ];
 
 
+
 2、在config/app目录加载插件
 
         'providers' => [
@@ -34,6 +38,7 @@ composer require yreborn/laravel-upload
         'aliases' => [
             'Upload' => Yreborn\LaravelUpload\Facades\Upload::class
         ],
+
 
 
 3、在控制器使用
